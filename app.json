@@ -4,9 +4,16 @@
     "slug": "pro1",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/splash.jpeg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "splash":{
+      "image": "./assets/images/splashgif.gif",
+      "resizeMode":"cover",
+      "width":"100%",
+      "height":"100%"
+
+    },
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -27,10 +34,8 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "image": "./assets/images/splash.jpeg",
+          "resizeMode": "cover"
         }
       ]
     ],
